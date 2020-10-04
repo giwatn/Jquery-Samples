@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/jquery-sample.css" />
+    <title>JQUERY SAMPLE INTERACTION</title>
+</head>
+
+<body>
+    <div id="page">
+        <h1 id="header">List King</h1>
+        <h2>Buy Groceries
+            <a href="#" id="show" style="display: none;">show</a>
+            <a href="#" id="hide" style="display: none;">hide</a>
+            <span id="counter"></span>
+        </h2>
+        <div id="main-content">
+            <p>
+                "Opportunity is missed by most people because it is dressed in overalls and looks like work." <br />- Thomas Edison
+            </p>
+            <!-- MAIN ITEMS -->
+            <ul>
+                <li id="one" class="hot calender delete">
+                    <a href="#"><em>Fresh Figs</em></a>
+                </li>
+                <li id="two" class="cool favorite">
+                    <a href="#">Pine Note</a>
+                </li>
+                <li id="three" class="hot delete">
+                    <a href="#">Burnt Corn</a>
+                </li>
+                <li id="four" class="cool favorite">
+                    <a href="#">Honey</a>
+                </li>
+                <li id="five" class="hot delete">
+                    <a href="#">Biscuit</a>
+                </li>
+            </ul>
+
+            <!-- FORM ADDITION SECTION -->
+            <div id="newItemButton">
+                <button href="#" id="showForm">
+                    new item
+                </button>
+            </div>
+            <form action="#" id="newItemForm">
+                <input type="text" id="itemDescription" placeholder="Add description..." />
+                <input type="submit" id="addButton" value="add" />
+            </form>
+
+            <!-- NOTES -->
+            <div id="notes"></div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer id="footer">&copy; Giwa Tosin</footer>
+        <div id="slideAd">
+            Buy ListKing Pro for only $12.99.
+        </div>
+
+    </div>
+    <script src="js/jquery-sample.js"></script>
+</body>
+
+</html>
